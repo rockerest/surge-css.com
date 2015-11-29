@@ -10,9 +10,20 @@
       "load-grunt-tasks": "^3.3.0",
       "surge-css": "^0.1.5"
   },
+  "bugs": {
+      "url": "https://github.com/rockerest/surge-css.com/issues"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": {
+      "name": "Tom Randolph",
+      "email": "websites@thomasrandolph.info",
+      "url": "http://log.rockerest.com"
+  },
+  "repository": {
+      "type": "git",
+      "url" : "https://github.com/rockerest/surge-css.com"
+  },
   "license": "MIT"
 }
