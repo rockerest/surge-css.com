@@ -1,0 +1,30 @@
+#overview{
+    @include box-shadow( 3px, 3px, 6px, 0px, #666666 );
+
+    background-color: $surge-overload;
+
+    border-right: 2px solid #CCCCCC;
+
+    height: 100%;
+
+    ul{
+        width: 100%;
+    }
+
+    li{
+        &:hover,
+        &:focus{
+            background-color: scale-color( $surge-overload, $lightness: -25% );
+        }
+
+        a{
+            display: block;
+
+            height: 1em;
+
+            padding: 1em;
+
+            color: #000000;
+        }
+    }
+}
