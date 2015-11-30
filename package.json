@@ -1,12 +1,12 @@
 {
   "name": "surge-css.com",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "The website for Surge CSS",
   "main": "index.html",
   "devDependencies": {
-    "font-awesome": "^4.4.0",
+    "font-awesome": "*",
     "grunt": "*",
-    "grunt-contrib-copy": "^0.8.2",
+    "grunt-contrib-copy": "*",
     "grunt-sass": "*",
     "load-grunt-configs": "*",
     "load-grunt-tasks": "*",
