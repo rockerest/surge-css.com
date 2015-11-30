@@ -1,0 +1,54 @@
+section{
+    @include respond-to( tablet ){
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+
+    @include respond-to( desktop ){
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+
+    padding-left: 1.5em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid #0C0C0C;
+
+    padding-right: 2.5%;
+    padding-left: 2.5%;
+
+    &:last-of-type{
+        border: 0;
+    }
+
+    + section{
+        margin-top: 1.5em;
+    }
+
+    h1{
+        margin-left: -0.5em;
+    }
+
+    ul,
+    ol{
+        margin-left: 1em;
+
+        list-style-position: inside;
+
+        li + li{
+            margin-top: .75em;
+        }
+    }
+
+    ol{
+        list-style-type: decimal;
+    }
+
+    ul{
+        list-style-type: disc;
+    }
+
+    p{
+        margin: .5em 0;
+        line-height: 1.5em;
+    }
+}

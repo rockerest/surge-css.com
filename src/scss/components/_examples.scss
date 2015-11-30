@@ -1,0 +1,45 @@
+#columns .surge-grid + .surge-grid{
+    margin-top: .2em;
+}
+
+.column-example,
+.column-example + [class*="surge-column-"]{
+    background-color: #999999;
+
+    height: 3em;
+
+    p{
+        float: right;
+    }
+}
+
+.column-example{
+    border-radius: 0.5em 0 0 0.5em;
+}
+
+.column-example + [class*="surge-column-"]{
+    background-color: #AAAAAA;
+
+    border-radius: 0 0.5em 0.5em 0;
+}
+
+.column-example.surge-column-1{
+    border-radius: 0.5em;
+}
+
+#responsive .surge-grid{
+    margin: 1.5em;
+
+    border-radius: 1em;
+
+    background-color: #AAAAAA;
+
+    [class*="surge-column-"]{
+        height: 2em;
+        padding: 0.5em;
+    }
+}
+
+#customization pre code{
+    margin: 0.25em;
+}

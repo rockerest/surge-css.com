@@ -1,0 +1,32 @@
+table{
+    margin: 1.5em;
+
+    td,
+    th{
+        padding: 0.6em;
+    }
+
+    th + th,
+    td + td{
+        border-left: 1px solid #999999;
+    }
+
+    tbody tr{
+        border-left: 1px solid #CCCCCC;
+        border-right: 1px solid #CCCCCC;
+
+        &:nth-child( even ){
+            background-color: #EEEEEE;
+        }
+
+        &:last-child{
+            border-bottom: 1px solid #CCCCCC;
+        }
+    }
+
+    thead{
+        background-color: #CCCCCC;
+
+        border-left: 1px solid #CCCCCC;
+    }
+}

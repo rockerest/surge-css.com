@@ -1,0 +1,30 @@
+header div.menu{
+    @include respond-to( tablet ){
+        display: inline-block;
+        float: right;
+        width: auto;
+        margin-top: 0;
+        font-size: 1em;
+    }
+
+    margin-top: 1em;
+
+    width: 100%;
+
+    display: block;
+
+    float: none;
+
+    text-align: center;
+    font-size: 1.5em;
+
+    a{
+        span.text{
+            @include respond-to( tablet ){
+                display: inline;
+            }
+
+            display: none;
+        }
+    }
+}
